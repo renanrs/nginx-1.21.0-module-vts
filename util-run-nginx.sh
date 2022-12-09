@@ -1,0 +1,1 @@
+docker run -it --rm --name test-nginx -v "$(pwd)"/content:/etc/nginx/html:ro -p 8080:80 local/nginx-vts
